@@ -50,7 +50,7 @@ try:
         
         compas = currentHeading()
         
-        print(currentHeading(),"Degrees")
+        print(compas,"Degrees")
         
 #         Yaw = math.atan((math.cos(imu.AccelVals[1])*((imu.MagVals[2]*math.sin(imu.AccelVals[0]))-(imu.MagVals[1]*math.cos(imu.AccelVals[0]))))/(imu.MagVals[0]))
 #         YawD = Yaw*180/M_PI
